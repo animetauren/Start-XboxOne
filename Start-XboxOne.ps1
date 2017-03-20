@@ -3,7 +3,7 @@
     Start-XboxOne.ps1 - A PowerShell Script to turn on your Xbox One.
 .DESCRIPTION
     Sends a magic packet to the Xbox One turning it on.
-.Credits
+.CREDITS
     xbox-remote-power - https://github.com/Schamper/xbox-remote-power
     Send-Datagram - https://gist.github.com/hotstone/fdff6a808d1e03010d29
 .PARAMETER liveID
@@ -22,7 +22,7 @@
     Author      : Henry Robalino - henry.robalino@outlook.com - https://anmtrn.com
     Version     : 1.0 - Jan 18, 2017
 .EXAMPLE
-    PS C:\> .\Start-XboxOne.ps1 -liveID  -ip XXX.XXX.XXX.XXX 
+    PS C:\> .\Start-XboxOne.ps1 -liveID A1B2C3D4E5 -ip XXX.XXX.XXX.XXX 
 #>
 
 param(
